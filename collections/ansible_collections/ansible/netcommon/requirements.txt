@@ -3,3 +3,4 @@ jxmlease
 ncclient
 paramiko
 ansible-core>=2.13.13rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
