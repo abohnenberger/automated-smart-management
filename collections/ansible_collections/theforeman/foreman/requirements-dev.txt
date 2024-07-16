@@ -12,3 +12,4 @@ cryptography<3.1; python_version < '3.6'
 -r https://github.com/ansible/ansible/raw/devel/test/lib/ansible_test/_data/requirements/sanity.pylint.txt
 -r https://github.com/ansible/ansible/raw/devel/test/lib/ansible_test/_data/requirements/sanity.yamllint.txt
 -r https://github.com/ansible/ansible/raw/devel/test/lib/ansible_test/_data/requirements/sanity.validate-modules.txt
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
